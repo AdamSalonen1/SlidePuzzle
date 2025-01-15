@@ -14,7 +14,7 @@ def main():
 
     options = webdriver.ChromeOptions()
 
-    options.add_extension('/Users/adamsalonen/Documents/GitHub/PythonApps/SlidePuzzle/adblockult.crx')
+    options.add_extension(rf'SlidePuzzle\adblockult.crx')
 
     driver = webdriver.Chrome(service=service, options=options)
 
